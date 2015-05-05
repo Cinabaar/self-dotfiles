@@ -1,0 +1,9 @@
+/.emacs.d/.cask/
+/.emacs.d/.emacs.d
+/.emacs.d/backups/
+/.emacs.d/eshell/
+/.emacs.d/ido.last
+/.emacs.d/places
+/.emacs.d/projectile-bookmarks.eld
+/.emacs.d/auto-save-list/
+/.emacs.d/session.*
