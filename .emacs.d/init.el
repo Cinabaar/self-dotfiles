@@ -10,7 +10,3 @@
 ;load configuration files
 (require 'el-init)
 (el-init-load "~/.emacs.d/init" :subdirectories '("." "lang"))
-
-
-(when (fboundp 'windmove-default-keybindings)
-  (windmove-default-keybindings))

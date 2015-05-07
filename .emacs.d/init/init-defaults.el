@@ -20,6 +20,8 @@
 
   (blink-cursor-mode 1)
   (setq-default cursor-type 'bar) 
+  (when (fboundp 'windmove-default-keybindings)
+    (windmove-default-keybindings))
 )
 
 (el-init-provide)
