@@ -75,8 +75,9 @@ That is, a string used to represent it on the tab bar."
        (lambda ()
          (remove-if
           (lambda (buffer)
-            (and (not (eq (current-buffer) buffer)) ; Always include the current buffer.
-                 (find (aref (buffer-name buffer) 0) " *")
+            (and
+             (not (eq (current-buffer) buffer)) ; Always include the current buffer.
+             (find (aref (buffer-name buffer) 0) " *");  0 1 0 1
             )
           )
           (buffer-list))))

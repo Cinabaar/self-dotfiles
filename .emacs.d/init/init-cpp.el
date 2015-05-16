@@ -16,6 +16,8 @@
 
 
 (setq gdb-many-windows t)
+(setq c-default-style "linux")
+(setq-default c-basic-offset 4)
 
 
 (el-init-provide)
